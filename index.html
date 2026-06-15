@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nama Usaha Saya</title>
+    <link rel="icon" href="./assets/contoh-logo.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<!-- Contoh jika menggunakan css biasa -->
+<style>
+    .judul-section-tentang-kami {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+</style>
+
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- JUDUL USAHA -->
+    <section
+        class=
+        "relative 
+        text-white 
+        py-32 px-6 
+        text-center 
+        bg-cover 
+        bg-center 
+        bg-[url(./assets/sample-gambar-produk.jpg)]"
+    >
+
+        <div class="absolute inset-0 bg-black/50"></div>
+
+        <div class="relative max-w-3xl mx-auto">
+
+            <h1 class="text-5xl font-bold mb-4">
+                Nama Usaha Anda
+            </h1>
+
+            <p class="text-xl mb-8">
+                Tulis slogan atau deskripsi singkat usaha Anda di sini.
+            </p>
+
+            <a
+                href="#kontak"
+                class="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold"
+            >
+                Hubungi Kami
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- TENTANG -->
+    <section class="py-16 px-6 max-w-5xl mx-auto">
+
+        <!-- contoh jika menggunakan css biasa -->
+        <!-- <h2 class="judul-section-tentang-kami"> 
+            Tentang Kami CSS Biasa
+        </h2> -->
+
+        <!-- Contoh jika menggunakan tailwind css -->
+        <h2 class="text-3xl font-bold mb-6 text-center">
+            Tentang Kami
+        </h2>
+
+        <p class="text-center text-lg">
+            Ceritakan usaha Anda. Kapan berdiri, produk yang dijual,
+            dan apa yang membuat usaha Anda berbeda dari yang lain.
+        </p>
+
+    </section>
+
+    <!-- PRODUK -->
+    <section class="bg-white py-16 px-6">
+
+        <h2 class="text-3xl font-bold text-center mb-10">
+            Produk / Layanan
+        </h2>
+
+        <div class="grid md:grid-cols-2 gap-6 max-w-6xl mx-auto">
+
+            <div class="bg-gray-100 p-6 rounded-xl shadow">
+                <h3 class="text-xl font-bold mb-2">
+                    Produk 1
+                </h3>
+
+                <p>
+                    Deskripsi produk atau layanan pertama.
+                </p>
+            </div>
+
+            <div class="bg-gray-100 p-6 rounded-xl shadow">
+                <h3 class="text-xl font-bold mb-2">
+                    Produk 2
+                </h3>
+
+                <p>
+                    Deskripsi produk atau layanan kedua.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- KEUNGGULAN -->
+    <section class="py-16 px-6 max-w-5xl mx-auto">
+
+        <h2 class="text-3xl font-bold text-center mb-10">
+            Kenapa Memilih Kami?
+        </h2>
+
+        <ul class="space-y-4 text-lg">
+
+            <li>✅ Harga Terjangkau</li>
+
+            <li>✅ Pelayanan Ramah</li>
+
+            <li>✅ Produk Berkualitas</li>
+
+            <li>✅ Respon Cepat</li>
+
+        </ul>
+
+    </section>
+
+    <!-- TESTIMONI -->
+    <section class="bg-gray-100 py-16 px-6">
+
+        <h2 class="text-3xl font-bold text-center mb-10">
+            Testimoni Pelanggan
+        </h2>
+
+        <div class="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+
+            <div class="bg-white p-6 rounded-xl shadow">
+                <p class="italic">
+                    "Pelayanannya sangat memuaskan."
+                </p>
+
+                <p class="mt-4 font-bold">
+                    - Pelanggan A
+                </p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow">
+                <p class="italic">
+                    "Produknya bagus dan sesuai harapan."
+                </p>
+
+                <p class="mt-4 font-bold">
+                    - Pelanggan B
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- KONTAK -->
+    <section id="kontak" class="py-16 px-6">
+
+        <h2 class="text-3xl font-bold text-center mb-10">
+            Kontak Kami
+        </h2>
+
+        <div class="max-w-2xl mx-auto text-center space-y-4">
+
+            <p>
+                📱 WhatsApp:
+                0812-3456-7890
+            </p>
+
+            <p>
+                📷 Instagram:
+                @usahaanda
+            </p>
+
+            <p>
+                📍 Alamat:
+                Kota Anda
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-900 text-white text-center py-6">
+
+        <p>
+            © 2026 Nama Usaha Anda
+        </p>
+
+    </footer>
+
+</body>
+</html>
